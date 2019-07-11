@@ -1,5 +1,7 @@
 package animalKingdom;
 
+import java.time.Year;
+
 public abstract class Animals
 {
 	// fields
@@ -36,4 +38,15 @@ public abstract class Animals
 	{
 		return name;
 	}
+
+	public int getYrDisc()
+	{
+		return yrDisc;
+	}
+
+	@Override
+    public String toString()
+    {
+        return "Name: " + getName() + " Year Discovered: " + getYrDisc() + "\n";
+    }
 }
