@@ -9,7 +9,7 @@ public abstract class Animals
 	private int yrDisc;
 
 	// constructor
-	public Animals(, int yrDisc)
+	public Animals(String name, int yrDisc)
 	{
 		this.id = maxId++;
 		this.name = name;
@@ -17,9 +17,9 @@ public abstract class Animals
 	}
 
 	// abstract methods
-	public abstact String move();
-	public abstact String breath();
-	public abstact String reproduce();
+	public abstract String move();
+	public abstract String breath();
+	public abstract String reproduce();
 
 	// methods
 	public String eat()
